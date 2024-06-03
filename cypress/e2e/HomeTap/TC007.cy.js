@@ -30,7 +30,6 @@ it('Mortgage Calculator', () => {
 
     cy.get('#rate').type('2.8{enter}')
 
-    // Ensure Mortage Calculator renders
 
 
 })
