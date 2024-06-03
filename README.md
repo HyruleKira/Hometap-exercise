@@ -15,7 +15,6 @@ The end-to-end tests included in this repo are an error message validation and a
 
 # Considerations
 These tests provide basic coverage for the 4 major fields that are present when first landing on the Mortgage Calculator page. While creating these tests there are several factors that came to mind that could be considered for expanded coverage in the future.
-- *Advanced.* The advanced dropdown should be included in the E2E user flow. The fields in that dropdown are required and can vary from state to state and even house to house.
-- *Pre-filled data.* At first it may seem helpful to the user but, it can be confusing and cause miscalculated mortgage payment amounts. It isn't until the user clicks "see current rates" that they can actually see what the varied rates can look like per state.
+- *Pre-filled data.* At first it may seem helpful to the user but, it can be confusing and cause miscalculated mortgage payment amounts. It isn't until the user clicks "see current rates" that they can actually see what the varied rates can look like per state. The implementation of a test that can include a user looking for property in a different state, could provide coverage for this feature. 
 - *User types.* As information is added into different fields the interest rate can vary. This data isn't being presented to the user upfront for them to get more accurate calculations. For example with the loan programs, there are more than just 3 loan program types. The difference in a loan program will change the interest rate and even the down payment requirements.
   
